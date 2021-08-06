@@ -17,7 +17,7 @@ body {
 
   font-family: 'Muli', sans-serif;
 
-  background-color: #cdc1c5;
+  background-color: #3d3f44;
 }
 
 .container {
@@ -36,6 +36,7 @@ body {
   flex: 1;
 
   color: #fff;
+  text-shadow: #27282b 0 0 3px;
 
   background-size: cover;
   background-position: center;
@@ -47,18 +48,32 @@ body {
 .slide h3 {
   position: absolute;
   opacity: 0;
-  bottom: 20px;
+  bottom: 50px;
   left: 20px;
   margin: 0;
 
-  font-size: 24px;
+  font-size: 25px;
 }
 
 .slide.active {
   flex: 10;
 }
 
-.slide.active h3 {
+.slide.active h3,
+.slide.active .description {
   opacity: 1;
   transition: opacity 0.3s ease-in 0.4s;
+}
+
+.description {
+  position: absolute;
+  opacity: 0;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+
+  font-size: 13px;
+
+  color: #fff;
+  text-shadow: #27282b 0 0 3px;
 }

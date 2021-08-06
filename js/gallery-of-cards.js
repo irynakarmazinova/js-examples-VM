@@ -29,4 +29,4 @@ function slidesPlugin(activeSlide = 0) {
 }
 
 // при загрузке страницы сразу будет выбрать 5й эл
-slidesPlugin(4);
+slidesPlugin(6);
