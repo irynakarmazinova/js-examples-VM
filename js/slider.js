@@ -9,11 +9,15 @@ let activeSlideIndex = 0;
 
 sidebar.style.top = `-${(slidesCount - 1) * 100}vh`;
 
-upBtn.addEventListener('click', () => {
-  changeSlide('up');
-});
-downBtn.addEventListener('click', () => {
-  changeSlide('down');
+// слушатель, что бы листать кнопками вверх/вниз
+document.addEventListener('keydown', e => {
+  // console.log(e)
+
+  if (e.key === 'ArrowUp') {
+    changeSlide('up');
+  } else if (e.key === 'ArrowDown') {
+    changeSlide('down');
+  }
 });
 
 function changeSlide(direction) {
@@ -38,3 +42,10 @@ function changeSlide(direction) {
   mainSlide.style.transform = `translateY(-${activeSlideIndex * height}px)`;
   sidebar.style.transform = `translateY(${activeSlideIndex * height}px)`;
 }
+
+upBtn.addEventListener('click', () => {
+  changeSlide('up');
+});
+downBtn.addEventListener('click', () => {
+  changeSlide('down');
+});
