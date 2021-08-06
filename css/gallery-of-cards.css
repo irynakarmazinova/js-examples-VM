@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-body {
+/* body {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,6 +25,36 @@ body {
 
   padding: 0 20px;
   width: 100%;
+} */
+
+body {
+  margin: 0;
+  background-color: #3d3f44;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  width: 100vw;
+  height: 100vh;
+
+  font-family: 'Muli', sans-serif;
+}
+
+.main {
+  position: absolute;
+  z-index: 1;
+  top: 7px;
+  left: 10px;
+
+  color: rgb(172, 172, 172);
+  text-decoration: none;
+  font-size: 13px;
+  font-family: inherit;
+  font-weight: bold;
 }
 
 .slide {
