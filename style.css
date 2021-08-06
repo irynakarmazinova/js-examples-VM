@@ -6,33 +6,9 @@
   padding: 0;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
-/* body {
-  font-family: 'Roboto', sans-serif;
-  height: 100vh;
-}
-
-.container {
-  position: relative;
-  overflow: hidden;
-  width: 100vw;
-  height: 100vh;
-} */
-
 body {
   font-family: 'Roboto', sans-serif;
+  height: 100vh;
 }
 
 .container {
@@ -40,28 +16,14 @@ body {
   overflow: hidden;
   width: 100vw;
   height: 100vh;
-}
-
-.main {
-  position: absolute;
-  z-index: 1;
-  top: 7px;
-  left: 10px;
-
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  font-size: 14px;
-  font-family: inherit;
-  font-weight: bold;
 }
 
 .sidebar {
+  height: 100%;
+  width: 35%;
   position: absolute;
   top: 0;
   left: 0;
-
-  height: 100%;
-  width: 35%;
   transition: transform 0.5s ease-in-out;
 }
 
