@@ -78,8 +78,8 @@ body {
 .slide h3 {
   position: absolute;
   opacity: 0;
-  bottom: 50px;
-  left: 20px;
+  bottom: 25px;
+  left: 30px;
   margin: 0;
 
   font-size: 25px;
@@ -98,9 +98,11 @@ body {
 .description {
   position: absolute;
   opacity: 0;
-  bottom: 20px;
-  left: 20px;
+  bottom: 70px;
+  left: 30px;
   margin: 0;
+
+  max-width: 300px;
 
   font-size: 13px;
 
