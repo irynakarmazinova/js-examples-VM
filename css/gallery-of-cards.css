@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
+/* анимацию делать через css, а не через js */
+
 * {
   box-sizing: border-box;
 }
@@ -15,7 +17,7 @@ body {
 
   font-family: 'Muli', sans-serif;
 
-  /* background-color: #cdc1c5; */
+  background-color: #cdc1c5;
 }
 
 .container {
