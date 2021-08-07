@@ -17,6 +17,7 @@
 body {
   margin: 0;
   background-color: #e5e5e5;
+  font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -27,8 +28,6 @@ body {
 
   width: 100vw;
   height: 100vh;
-
-  font-family: 'Roboto', sans-serif;
 }
 
 .main {
