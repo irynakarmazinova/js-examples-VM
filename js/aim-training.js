@@ -107,15 +107,15 @@ function getRandomColor() {
   return colors[index];
 }
 
-// kill all circles automatically
-function winTheGame() {
-  function kill() {
-    const circle = document.querySelector('.circle');
+// cheat code - kill all circles automatically
+// function winTheGame() {
+//   function kill() {
+//     const circle = document.querySelector('.circle');
 
-    if (circle) {
-      circle.click();
-    }
-  }
+//     if (circle) {
+//       circle.click();
+//     }
+//   }
 
-  setInterval(kill, 75);
-}
+//   setInterval(kill, 75);
+// }
